@@ -1,0 +1,42 @@
+<!doctype html>
+
+<html>
+	<head>
+		<title>  Login form </title>
+		<link rel="stylesheet" href="logincss.css">
+	<title>Daily Expense Tracker</title>
+	<link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body><header>
+	<nav>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<h1>DAILY EXPENSE TRACKER</h1>
+		<ul id="menu">
+	     <li><a href="index.html"><a href="index.html"><i class="fa fa-home"></i> HOME</a></li>
+		 <li><a href="login.html"> <i class="fa fa-user" aria-hidden="true"></i> LOGIN</a></li>
+	      <li><a href="signup.php"><i class="fa fa-sign-in" aria-hidden="true"></i> SIGNUP</a></li>
+	     <li><a href="about.php"><i class="fa fa-globe" aria-hidden="true"></i> ABOUT</a></li>
+		</ul>
+	</nav>
+</header>
+<div class="divider"></div>
+
+
+	<br><br><br><br><br>
+	<div class="loginBox" style="transform: translate(-50%, -35%); height: 420px;">
+		<br><br><br>
+		<img src="user.png" class="user">
+		<h2>LOGIN</h2>
+		<form action="checklogin.php" method="post">
+			<p>USERNAME</p>
+			<input type="text" name = "username" placeholder="Enter Username">
+			<p>PASSWORD</p>
+			<input type="password" name = "password" placeholder="Enter Password">
+			<input type="submit" name = "" value="LOG IN">
+			<br>
+			<a href="#"> Forget Password</a> 
+			
+		</form>
+	</div>
+	</body>
+</html>

@@ -1,0 +1,41 @@
+* { padding: 0; margin: 0; }
+a{ text-decoration: none; font-family: 'Shrikhand',cursive;}
+li{list-style: none;}
+body{
+	background-color: #060A3C;
+	/*background: url("mb.jpg");*/
+	width: 100%;
+	height: 100%;
+	background-size: auto;
+	background-size: cover;
+	background-repeat: repeat;
+	}
+
+.mainmenu {width: 250px; 
+	       background-color: #060A3C;}
+
+	       
+.mainmenu a {text-transform: uppercase;
+			letter-spacing: .2em;
+			color:#FFF;
+			display: block;
+			padding: 10px 0px 10px 12px;
+			border-bottom: 1px solid #BDC3C7;}
+
+.mainmenu a:hover {background: rgba(121,165,162,1.08);}
+
+.submainmenu ul {display: none;}
+.submainmenu li:hover ul{display: block;}
+
+
+.mainmenu .downarrow:after { content: '\02C5';
+							  float: right;
+							  margin-right: 20px;}
+
+.mainmenu li:hover .downarrow:after{content: '\02C4';}
+
+
+.submainmenu ul li a:before{ content: '\203A'; 
+							margin-left: 20px;
+							}
+
